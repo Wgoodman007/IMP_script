@@ -83,7 +83,7 @@ tar xvzf ${version}.source.tar.gz
 
 cd root*
 ./configure --all
-make -j8
+make -j2
 sudo make install
 
 echo -e "#ROOT \n source $HOME/root/bin/thisroot.sh">>$HOME/.bashrc
